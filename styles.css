@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin:0;
+}
+header{
+  background: #414173;
+  color: white;
+  display: flex;
+  padding: 1.5rem 0 ;
+  justify-content: space-around;
+}
+header .logo{
+  text-align: center;
+  width: 40%;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+header ul li {
+  cursor: pointer;
+}
+header ul li:hover{
+  text-decoration: underline;
+}
+header nav{
+  width: 60%;
+}
+aside{
+  background-image: url("https://i1.wp.com/www.viviendoporelmundo.com/wp-content/uploads/2015/04/La-Paz-10.jpg?resize=700%2C525&ssl=1");
+  background-size: 100% 100%;
+  height: 20rem;
+  padding-top: 15rem;
+}
+aside h1, aside h5{
+  color: white;
+  text-align: center;
+}
+aside h1{
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+aside h5{
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+aside .button{
+  padding-top: 25px;
+  text-align: center;
+  margin: auto;
+  width: 30%;
+}
+aside .button button{
+  background: green;
+  height: 35px;
+  color: white;
+  border: solid white 2px;
+  border-radius: 10px;
+  width: 150px;
+}
+aside .button button:hover{
+  background-color: #1f481f;
+  cursor: pointer;
+}
